@@ -1,0 +1,46 @@
+h2{
+   color: crimson;
+}
+span{
+   color: darkgreen;
+}
+.text{
+   color: darkmagenta;
+}
+#section3{
+   color: lightsalmon;
+} 
+.paragraph{
+   color: lightseagreen;
+}
+div{
+   color: lightslategray; 
+} /*приоритет ниже чем у класса*/
+.text2{
+   color: saddlebrown;
+}
+.text2.paragraph2{
+   color: rgb(89, 0, 255);
+} /*уточнение*/
+p span{
+   color: rgb(219, 127, 61);
+}
+[class="text3"]{
+   color: tomato;
+}
+.one-text,
+.two-text{
+   color: yellowgreen;
+}
+[class*="-texxt"]{
+   color: tomato;
+}
+.section > p {
+   color: rgb(70, 180, 70);
+}
+.section + p {
+   color: rgb(112, 112, 14);
+}
+.section ~ p {
+   color: violet;
+}
